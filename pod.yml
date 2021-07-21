@@ -14,5 +14,9 @@ spec:
        spec:
         containers:
          - name: "myc1"
+<<<<<<< HEAD
            image: "vimal13/apache-webserver-php"
            manj
+=======
+           image: "vimal13/apache-webserver-php".
+>>>>>>> parent of 0b2e4a9 (third change)

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+    name: myrc12
+spec:
+   replicas: 3
+   selector:
+      app: web
+   template:
+       metadata:
+        name: "mypod12"
+        labels:
+           app: web
+       spec:
+          containers:
+           - name: "myc12"
+             image: "vimal13/apache-webserver-php"
